@@ -1,5 +1,5 @@
 # MolPre
-A machine learning model to predict metastasis of cT1 solid lung cancer and can be accessed at https://molpre.cqmu.edu.cn/.
+A machine learning model to predict metastasis of cT1 solid lung cancer and the webapp can be accessed at https://molpre.cqmu.edu.cn/.
 
 Lung cancer was the leading cause of cancer-related mortality world-wide with 1.8 million cases in 2022, even so with significant treatment advancements. Due to the use of low-dose computed tomography (LDCT), an increasing number of small-size solid lung cancer are being detected. A pulmonary nodule is a frequent and often incidental finding, and still represents a diagnostic challenge for radiologists. Although most solitary nodules are related to benign disease, some represent stage I lung cancers.
 
