@@ -21,7 +21,7 @@ y = [1 if each == "metastasis" else 0 for each in y]
 
 ###split files
 validation_size = 0.3
-seed = 25  #  25 #0.86
+seed = 25 
 
 import pandas as pd
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=validation_size, random_state=25)
