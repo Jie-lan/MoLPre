@@ -1,8 +1,5 @@
 import pandas as pd
 import shap
-import xgboost
-from sklearn.preprocessing import LabelEncoder
-from sklearn import svm
 import numpy as np
 import matplotlib.pylab as plt,savefig
 from sklearn import metrics
