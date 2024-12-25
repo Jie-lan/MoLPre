@@ -32,7 +32,7 @@ search_grid1 = [ {'model': [RandomForestClassifier(random_state=123)],
      'model__criterion': ['entropy', 'gini'],
      'model__max_depth': list(range(1, 20)) + [None],
      'model__min_samples_leaf': list(range(1, 10)),
-     'model__n_estimators': [20, 40, 60, 80, 100, 120, 140, 200]},
+     'model__n_estimators': [20, 40, 60, 80, 100, 120, 140, 200]}
 ]
 
 pipeline1 = Pipeline([('model', RandomForestClassifier())])
