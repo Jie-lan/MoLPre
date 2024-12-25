@@ -35,7 +35,7 @@ selected_features=['Age', 'Sex', 'Smoking', 'Environmental_exposure', 'Prior_can
 model_rf = RandomForestClassifier(random_state=123)
 X_train=X_train[selected_features]
 X_test=X_test[selected_features]
-model_rf.fit(X_train, y_train)  # 在训练集上训练模型
+model_rf.fit(X_train, y_train) 
 print(model_rf.feature_importances_)
 print(X_train.columns.tolist())
 
